@@ -7,10 +7,10 @@ function App() {
 
   const [state, setState] = useState('')
   let componet
-  if (state === 'Profile')
-    componet = <Profile />
-  else if (state === 'About')
-    componet = <About />
+  
+
+
+  
   return (
     <div className="App">
       <button onClick={() => setState('Profile')}>Profile</button>
